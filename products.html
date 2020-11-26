@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Ceylon Tea Application</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/ceylon tea logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Types of Tea</a></li>
+                    <li><a href="teaManufacture.html">Sri Lankan Tea Manufacturers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon"
+                 onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="content">
+                    <div class="textBox">
+                        <h1>It's Not Just Tea<br>It's <span>Ceylon Tea</span></h1>
+                        <a href="" class="btn">Learn More &#8594;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="images/new.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Tea Benifits-------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/beni1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/beni2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/beni3.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="small-container">
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/beni4.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/beni5.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/beni6.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sales</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <a href="product_details.html"><img src="images/product-1.png"></a>
+            <h4>Black Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$12.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product_details.html"><img src="images/product-2.png"></a>
+            <h4>Green Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$11.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product_details.html"><img src="images/product-3.png"></a>
+            <h4>Oolong Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$20.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product_details.html"><img src="images/product-4.png"></a>
+            <h4>White Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$32.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-5.png"></a>
+                <h4>Black Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$12.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-6.png"></a>
+                <h4>Green Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$11.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-7.png"></a>
+                <h4>Oolong Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-8.png"></a>
+                <h4>White Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$32.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-9.png"></a>
+                <h4>Black Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$12.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-10.png"></a>
+                <h4>Green Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$11.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-11.png"></a>
+                <h4>Oolong Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product_details.html"><img src="images/product-12.png"></a>
+                <h4>White Tea</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$32.00</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+    <!--------footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios Mobile Phones</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/footer logo.png">
+                    <p>Ceylon Tea For All SriLankans</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                    <li><i style="font-size:24px" class="fa">&#xf041;</i></li>
+                    <li><a href="011879654">Number</a></li>
+                    <li><a href="ruchisanka@gmail.com">Email</a></li>
+                    <li><a href="http://www.apiit.lk">Fax<a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us On</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 &#169; - Ceylon Tea</p>
+        </div>
+    </div>
+
+    <!--------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.tea').src = anything;
+        }
+
+        function changeCircleColor(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Tea Application</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/ceylon tea logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Types of Tea</a></li>
+                    <li><a href="teaManufacture.html">SriLankan Tea Manufacturers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon"
+                 onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>While There Is Tea<br>There Is Hope</h1>
+                <p>Life Is Like A Cup Of Tea It's All In How You Make It..</p>
+                <a href="teaManufacture.html" class="btn">Explore Now &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <img src="images/tea2.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------featured categories-------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/feature 1.png">
+            </div>
+            <div class="col-3">
+                <img src="images/feature 2.png">
+            </div>
+            <div class="col-3">
+                <img src="images/feature 3.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="video">
+    <video src="videos/ceylon tea promo.mp4" width="100%" controls autoplay loop></video>
+</div>
+
+<!--------featured products-------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.png">
+            <h4>Black Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.png">
+            <h4>Green Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.png">
+            <h4>Oolong Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.png">
+            <h4>White Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs:350.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.png">
+            <h4>Pure Green Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.png">
+            <h4>Tea Leaves</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.png">
+            <h4>Stuarts Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:470.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.png">
+            <h4>Finlays Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs:400.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.png">
+            <h4>Empire Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.png">
+            <h4>All In One Pack</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:950.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.png">
+            <h4>Dilmah Spice Chai</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.png">
+            <h4>Halpe Tea</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs:400.00</p>
+        </div>
+    </div>
+</div>
+
+<!---------offer--------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Avaliable On Ceylon Tea Store</p>
+                <h1>Green Darjeeling Tea</h1>
+                <small>An impecable blend of fresh green teas from Darjeeling with the uplifting notes of Bergamot oil
+                    and the warm notes of fresh spices.
+                    <br>
+                </small>
+                <a href="products.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------testimonial-------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>TBH I was a bit skeptical there are already a ton of online tea companies and
+                    I expected the same type of tea I can get at Upton.I was wrong these teas are amazing.
+                    Dilmah has done an amazing job sourcing and keeping them fresh.
+                    I love the green and black teas and just ordered more. If you love tea give it a shot. I suggest the sample pack as a starter.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="images/user-1.png">
+                <h3>Kasun Kalhara</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I’m a huge fan of Breakfast teas like Assam and Darjeeling,
+                   but I’ve never given Chinese teas a chance before. I picked this up just out of curiosity really but I am blown away. I didn’t expect it to be this fragrant and full of flavour.
+                   I think I’m addicted will have to buy more!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-2.png">
+                <h3>Kumar Sangakkar</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>These teas are really great. The smell makes my brain explode in a good way! You can quote me on that 100%.
+                    It’s a sip of mindfulness</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-3.png">
+                <h3>Buyer</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------brands--------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-1.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-2.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-3.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-4.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-5.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App For Android and ios Mobile Phones</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/footer logo.png">
+                <p>Ceylon Tea For All SriLankans</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><i style="font-size:24px" class="fa">&#xf041;</i></li>
+                    <li><a href="011879654">Number</a></li>
+                    <li><a href="ruchisanka@gmail.com">Email</a></li>
+                    <li><a href="http://www.apiit.lk">Fax<a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us On</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 &#169; - Ceylon Tea</p>
+    </div>
+</div>
+
+<!--------js for toggle menu-------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
